@@ -1,6 +1,6 @@
 # Enterprise Multi-VLAN & Inter-VLAN Routing Network
 
-*Documentation of First\_Project.pkt (Packet Tracer 9.0.1) – configs taken from the saved file.*
+Cisco Packet Tracer project: Enterprise-MultiVLAN-OSPF-RoaS.pkt
 
 ## 1. The Goal
 
@@ -391,7 +391,7 @@ Applied inbound on both R3 WAN links, so Sales traffic is filtered no matter whi
 | SSH | `ssh -l <user> 192.168.209.2` from VLAN 10 PC | Login prompt |
 | Sales ACL | Sales PC: web page to a VLAN 60 server works, ping fails | As stated |
 
-## 5. Observations from Your File
+## 5. Observations
 
 Things found in the saved configs that are worth fixing:
 

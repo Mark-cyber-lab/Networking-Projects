@@ -1,8 +1,6 @@
 # Enterprise VPN, DHCP, NTP and SSH Lab
 
-Cisco Packet Tracer project: Third\_Project.pkt
-
-*Built from the decoded Third\_Project.pkt (Packet Tracer 9.0.1). Device configs, links and server settings were read directly from the file. Where it differs from the earlier spec, the saved file wins.*
+Cisco Packet Tracer project: Enterprise-VPN-DHCP-NTP-Lab_baseline.pkt
 
 ## 1. The Goal
 
@@ -331,7 +329,7 @@ crypto map CMAP 20 ipsec-isakmp dynamic DYN
 | Username | vpnuser |
 | Password | VPNPASS123 |
 
-### Step 9: SSH (optional)
+### Step 9: SSH
 
 SSH works on both routers, R-HQ and R-BR. SW-HQ has the domain name and user but its VTY lines still use plain `login`. R-BR uses the same commands, but with login local instead of login authentication default, because it has no AAA model.
 
